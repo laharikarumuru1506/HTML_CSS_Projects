@@ -1,0 +1,57 @@
+body{
+	background-color: rgb(255,255,200);
+}
+#form-content{
+	margin:auto;
+	font-family: verdana;
+	font-size:15px;
+	width:70%;
+	height:auto;
+	background-color: white;
+	padding:15px;
+	border-radius:20px;
+}
+.caption{
+	text-align:center;
+	margin-left:25px;
+	font-size:25px;
+	word-spacing: 3px;
+}
+.form{
+	padding:20px;
+}
+.field1{
+border:1px solid grey;
+}
+.labels{
+ padding:15px;
+ margin-top:10px;
+}
+.fields{
+margin-top:20px;
+}
+#labels{
+	margin-top:20px;
+}
+.field2{
+border:1px solid grey;
+}
+.selectbar{
+	margin-top:10px;
+}
+.field3{
+border:1px solid grey;
+}
+.field4{
+border:1px solid grey;
+}
+.button{
+	background-color: red;
+	margin-top:10px;
+	color:white;
+	padding:5px;
+	font:20px verdana;
+}
+.footer{
+	text-align:center;
+}
