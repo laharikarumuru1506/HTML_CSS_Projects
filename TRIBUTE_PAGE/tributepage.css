@@ -1,0 +1,31 @@
+.body-content{
+	background-color:rgba(0,0,255,0.1);
+}
+#middle{
+	text-align:center;
+}
+#middle h1.header{
+	font-size:40px;
+	margin:10px;
+	color:blue;
+}
+#middle h2.header2{
+	font-size:30px;
+	margin:10px;
+  color:green;
+}
+#content{
+margin-right: 30px;
+}
+#content q{
+	font-size:20px;
+}
+.footer{
+	color:rgba(0,0,255,0.5);
+	font-size:20px;
+
+}
+.link-part{
+	color:skyblue;
+	text-decoration: none;
+}
