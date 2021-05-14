@@ -1,0 +1,60 @@
+.image{
+	background-image: url("http://1.bp.blogspot.com/-wNAljSTWi6I/UdVikAJlrsI/AAAAAAAAJq8/dKL8zPi2MGE/s1600/beach+sunset+wallpaper+2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.header{
+ color:white;
+ font-size:55px;
+ letter-spacing: 2px;
+}
+.para{
+	color:white;
+	font-size:27px;
+}
+.para a{
+	color:white;
+	border:2px solid white;
+	text-decoration: none;
+	border-radius:7px;
+	padding:10px;
+}
+.para a:hover{
+	background-color: white;
+	color:black;
+}
+.section{
+	font-size:21px;
+}
+.section section{
+ background-color:grey;
+ color:white;
+ padding:30px;
+}
+.section p{
+	margin-top:0px;
+	padding:30px;
+}
+.footer{
+	display:flex;
+	font-size:21px;
+}
+.footer div{
+	padding:20px;
+}
+.box1{
+	background-color: grey;
+	color:white;
+}
+.box3{
+	background-color: grey;
+	color:white;
+}

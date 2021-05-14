@@ -1,0 +1,116 @@
+.header{
+	background-image:url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: scroll;
+	height:450px;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	text-align:center;
+	color:white;
+	opacity:0.9;
+}
+.header h1{
+	font-size:40px;
+}
+.header p{
+	font-size:21px;
+}
+.button{
+	border:1px solid grey;
+	text-decoration: none;
+	background-color:rgb(30,30,30) ;
+	color:white;
+	padding:18px 25px;
+	letter-spacing: 0.1em;
+}
+a.button:hover{
+	background-color: white;
+	color:black;
+}
+.section1{
+	text-align: center;
+}
+.section1 h1{
+ font-size:30px;
+ padding-top: 10px;
+}
+.section1 p{
+	columns:2;
+	display:inline-block;
+	width:775px;
+	padding-bottom:2%;
+	font-size:21px;
+}
+.section2{
+	display:flex;
+	text-align:center;
+	justify-content: center;
+	background-color:grey;
+    height:570px;
+}
+.section2 div{
+	width:250px;
+}
+.image1,.image2,.image3{
+  width:250px;
+}
+.section2 div:nth-of-type(1),div:nth-of-type(2),div:nth-of-type(3){
+background-color:white;
+margin: 30px 10px;
+height:auto;
+}
+.para{
+ font-size:20px;
+ padding:30px;
+}
+.section3{
+	text-align:center;
+	justify-content:center;
+}
+.section3 h1{
+ font-size:30px;
+ padding-top: 10px;
+}
+.section3 p{
+	display:inline-block;
+	width:700px;
+	padding-bottom:2%;
+	font-size:21px;
+}
+.section4{
+	display:flex;
+	text-align: center;
+}
+.section4 div{
+	color: white;
+	margin:0px;
+	width:50%;
+	height:300px;
+	font-size:21px;
+	padding-top:50px;
+}
+.section4 div:nth-of-type(1){
+   background-color: skyblue;
+}
+.section4 div:nth-of-type(2){
+   background-color: grey;
+}
+.footer{
+display:flex;
+text-align: center;
+}
+.footer div{
+	color:white;
+	margin:0px;
+	width:50%;
+	height:65px;
+	padding-top:33px;
+	background-color: black;
+	font-size:21px;
+}
+.footer a{
+	text-decoration: none;
+	color:blue;
+}
