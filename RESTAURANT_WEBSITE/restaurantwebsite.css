@@ -1,0 +1,108 @@
+body{
+	background-image: url("../images/topography.jpg");
+	background-size: cover;
+	background-attachment: scroll;
+}
+.menubar{
+	display:flex;
+	margin:20px;
+	margin-top: 50px;
+}
+.menubar div{
+ background-color: yellow;
+ width:400px;
+ height:auto;
+ text-align: center;
+ padding:15px 20px;
+ font-size: 22px;
+ margin:5px;
+}
+.menubar a{
+	text-decoration: none;
+	color:black;
+}
+.section-1{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	margin:20px 20px;
+	grid-gap: 20px;
+}
+.section-1 div:nth-of-type(1){
+  background-image:url("https://tse1.mm.bing.net/th?id=OIP.IvmsYGdXsMshRZlFKYZXDQHaD4&pid=Api&P=0&w=345&h=181");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  grid-row-start:1;
+  grid-row-end:3;
+  grid-column-start:1;
+  grid-column-end:4;
+  height:370px;
+}
+.division-1 h1{
+	font-size:40px;
+	background-color: yellow;
+	width:330px;
+}
+.division-1 p{
+	font-size:20px;
+	background-color: yellow;
+	width:165px;
+}
+.section-1 div:nth-of-type(2){
+	background-color: yellow;
+}
+.section-1 div:nth-of-type(3){
+	background-color: yellow;
+}
+.division-2{
+	text-align: center;
+	padding-top:35px;
+}
+.division-2 span{
+	font-size: 60px;
+}
+.division-2 b{
+	font-size: 18px;
+}
+.section-2{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	margin:20px 20px ;
+	grid-gap: 20px;
+}
+.section-2 div{
+	background-color: white;
+	padding:20px 30px;
+	font-size: 18px;
+	text-align: center;
+}
+.icon{
+	font-size: 50px;
+}
+.section-3{
+	display:flex;
+	background-color: white;
+	margin:20px;
+}
+.section-3 div{
+	padding:30px 10px;
+}
+.section-3 div:nth-of-type(2){
+	padding:90px 30px 20px 5px;
+}
+.button{
+	background-color: yellow;
+	padding:0px 20px;
+}
+.section-4{
+ text-align:center;
+}
+.section{
+	display:flex;
+	flex-wrap: wrap;
+	margin:20px;
+}
+.section div{
+ margin:35px;
+ margin-left: 5px;
+}
