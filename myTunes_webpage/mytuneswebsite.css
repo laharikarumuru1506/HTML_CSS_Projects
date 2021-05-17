@@ -1,0 +1,151 @@
+.nav-bar ul{
+	list-style-type: none;
+  background-color:rgba(0,0,0,0.8);
+  margin:0px;
+  padding:0px;
+  overflow:hidden; 
+}
+.nav-bar li{
+	float:left;
+}
+.nav-bar a{
+	display:block;
+	text-decoration: none;
+	text-align: center;
+	color:white;
+	font-size:18px;
+	padding:16px; 
+}
+.nav-bar a:hover{
+	background-color:grey;
+}
+#mytunes{
+	background-image: url("http://wallpapercave.com/wp/VbjLZ6u.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:90vh;
+	color:white;
+}
+#mytunes div{ 
+	max-width: 1180px;
+    text-align: center;
+    margin:auto;
+    padding: 0 3rem;
+    padding-top: 10em;
+}
+#mytunes p{
+	line-height: 35px;
+	font-size: 21px;
+}
+#mytunes h1{
+	font-size: 65px;
+}
+#mytunes h2{
+	font-size: 30px;
+}
+.heading{
+	font-size: 30px;
+	padding:20px;
+}
+.para-1{
+	padding:0px 50px;
+	font-size: 21px;
+	word-spacing: 3px;
+	line-height: 35px;
+	padding-bottom: 10px;
+}
+.para-2{
+	font-size:18px;
+	padding-top: 40px;
+}
+#music{
+	background-color: rgba(0,0,0,0.9);
+	text-align: center;
+	color:white;
+	padding-top: 30px;
+}
+#music .icon,b{
+	font-size:40px;
+}
+#music a{
+	color:white;
+	text-decoration: none;
+	background-color: red;
+	padding:18px 25px;
+}
+.image-1{
+	display:block;
+	width:75%;
+	margin:auto;
+	text-align: center;
+}
+#video{
+	text-align: center;
+	padding-top:40px;
+}
+#video a{
+	background-color: darkblue;
+	color:white;
+	padding:18px 20px;
+	text-decoration: none;
+}
+.image-2{
+	padding:20px;
+	display:block;
+	width:80%;
+	margin:auto;
+	text-align: center;
+}
+.section-bg{
+  background-image:url("https://tse3.mm.bing.net/th?id=OIP.iTh4TBHYy0iAjn2Fyp5pGwHaEK&pid=Api&P=0&w=301&h=170");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100vh;
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+#giftcards{
+	display:flex;
+	justify-content: center;
+	padding-top:30px;
+}
+#giftcards div{
+	width:50%;
+	height:300px;
+}
+#giftcards div:nth-of-type(2){
+	width:500px;
+}
+.image-3{
+	width:90%;
+	max-height:250px;
+}
+#giftcards a{
+	text-decoration: none;
+}
+.about{
+	margin-top:20px;
+	padding-top: 20px;
+	background-color:rgba(0,0,0,0.9); 
+	display:flex;
+	height:50vh;
+	justify-content: center;
+	color:white;
+}
+.about ul{
+	list-style-type: none;
+	font-size: 16px;
+	line-height: 25px;
+	color:grey;
+}
+.about h2{
+  border-bottom:2px dotted grey;
+}
+.footer{
+	padding:1px;
+	background-color: grey;
+	text-align: center;
+}
