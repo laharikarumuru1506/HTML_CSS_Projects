@@ -1,0 +1,27 @@
+.division{
+	background-color:#222b4f;
+	max-width: 800px;
+	margin: 150px auto;
+	border-radius: 10px;
+}
+.division span{
+	color:#9242d7;
+}
+.image{
+	height: 390px;
+	border-radius: 0px 10px 10px 0px;
+}
+p{
+	color: rgba(255,255,255,0.7);
+}
+.division-1 p{
+	font-size: 13px;
+}
+.division-2::after {
+  position: absolute;
+  content: "";
+  inset: 0em -9.65em 0em 0.95em;
+  background-color: #5d1d93;
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0.5;
+}
