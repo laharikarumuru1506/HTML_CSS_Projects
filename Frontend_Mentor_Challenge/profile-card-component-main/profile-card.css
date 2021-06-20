@@ -1,0 +1,28 @@
+body{
+	background-color:#41a8a7;
+	background-image: url("file:///C:/Users/karum/OneDrive/Desktop/htmlpro/bootstrap%20templates/images/bg-pattern-top.svg"),url("file:///C:/Users/karum/OneDrive/Desktop/htmlpro/bootstrap%20templates/images/bg-pattern-bottom.svg");
+	background-position:-100px -300px,850px 300px;
+	background-repeat: no-repeat,no-repeat;
+	background-size: 50%,50%;
+}
+.card-content{
+	width: 350px;
+	margin:150px auto;
+	border-radius: 10px;
+}
+.card-img{
+	border-radius: 10px 10px 0px 0px;
+}
+.image{
+	width: 100px;
+	border: 4px solid white;
+	border-radius: 50%;
+	margin: -55px 120px 0px 120px;
+}
+.card-text{
+ text-align: center;
+}
+.card-text span,small{
+	color: grey;
+	font-weight: normal;
+}
