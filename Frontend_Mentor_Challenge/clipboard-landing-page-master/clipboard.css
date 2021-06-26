@@ -1,0 +1,98 @@
+body{
+	background-image: url("file:///C:/Users/karum/OneDrive/Desktop/htmlpro/bootstrap%20templates/images/bg-header-desktop.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top center;
+}
+.section-1,.section-4,.section-6{
+	text-align: center;
+}
+.logo-content{
+	width: 100px;
+	margin-top: 70px;
+}
+h3,h4,p{
+	max-width:580px;
+	margin:10px auto;
+}
+.btn-bg-1,.btn-bg-2{
+	margin:15px 6px;
+	padding: 10px 40px;
+	border-radius: 50px;
+	color: white;
+}
+a.btn-bg-1:hover,a.btn-bg-2:hover{
+	color: white;
+}
+.btn-bg-1{
+  background-color:#11d0bb;
+}
+.btn-bg-2{
+	background-color:#8174ef ;
+}
+.section-2{
+	text-align: center;
+	margin: 30px 10px;
+}
+.image-1{
+ width: 700px;
+ height: 500px;
+ margin-left: -30px;
+ overflow: hidden;
+}
+.section-3 h5,.section-3 p{
+ max-width: 330px;
+ margin:10px auto;
+}
+.content{
+	margin:50px 0px ;
+	margin-left: -200px;
+}
+.section-4{
+	padding-top: 80px;
+}
+.image-2{
+	padding-top: 50px;
+}
+.section-5{
+	padding: 40px 5px;
+}
+.section-5 h5{
+	padding-top: 30px;
+}
+.section-5 span{
+	padding: 20px;
+}
+.flex-content div{
+  margin: 70px 50px;
+}
+.footer{
+	max-width: 1200px;
+	margin:70px auto;
+	padding: 25px 50px 10px 50px;
+	background-color: #ececee;
+	margin-bottom: 10px;
+}
+.footer div{
+	margin: 0px 30px;
+}
+.footer a{
+	color: black;
+}
+.footer a:hover{
+	color:#11d0bb;
+	text-decoration: none;
+}
+.footer li{
+  padding: 5px 20px;
+}
+.icons a{
+  padding: 15px 7px;
+}
+.icons a:hover{
+	color:#11d0bb;
+}
+.logo{
+	width: 100px;
+	padding: 5px 30px;
+}
